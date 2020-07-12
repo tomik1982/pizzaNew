@@ -1,0 +1,39 @@
+@import "variables";
+@import "mixins";
+
+.main {
+  background-image: url(../img/bg.png);
+}
+
+.pizza {
+  position: absolute;
+  right: -15px;
+  top: -200px;
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  font-size: 25px;
+  line-height: 30px;
+  max-width: 570px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.btn {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: solid 2px #fff;
+  padding: 12px 0;
+  max-width: 188px;
+  text-align: center;
+}

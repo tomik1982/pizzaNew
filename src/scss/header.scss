@@ -1,0 +1,45 @@
+@import "variables";
+@import "mixins";
+
+.header {
+  position: fixed;
+}
+.pulse {
+  background: #4fbaea;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper {
+  padding-left: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+.nav li {
+  padding-left: 29px;
+  margin-left: 23px;
+  position: relative;
+}
